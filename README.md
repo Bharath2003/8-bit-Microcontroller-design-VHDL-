@@ -22,31 +22,6 @@ Each hardware module — including ALU, Control Unit, Memory, and I/O ports — 
 
 ---
 
-## 🧩 Project Architecture
-
-+-----------------------+
-| Control Unit |
-| (Instruction Decode) |
-+----------+------------+
-|
-v
-+----------+------------+
-| ALU |
-| (Arithmetic & Logic) |
-+----------+------------+
-|
-v
-+----------+------------+
-| Memory (RAM / ROM) |
-| Data & Instruction |
-+----------+------------+
-|
-v
-+----------+------------+
-| Input / Output Ports |
-| External Interaction |
-+-----------------------+
-
 
 ---
 
